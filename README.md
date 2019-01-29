@@ -1,3 +1,4 @@
+Important change
 This is the google-homepage project from TOP(TheOdinProject).
 
 As the name suggests the project is to clone the "google.com" homepage with HTML and CSS.

@@ -1,24 +1,73 @@
+.headers {
+  padding-left: 70%;
+}
+
+.google-squares {
+  display: inline;
+  height: 25px;
+  width: 25px;
+  padding-top: 5px;
+}
+
 #sign-in {
-    color: #FFFFFF;
-    font-weight: bold;
-    background-color: #5b5bf8;
-    border: none;
-    padding: 5px 8px;
-    border-radius: 3px; 
+  color: #FFFFFF;
+  font-weight: bold;
+  background-color: #5b5bf8;
+  border: none;
+  padding: 5px 8px;
+  border-radius: 3px;
 }
 
-
-.list li {
-    list-style: none;
-    display: inline;
-    margin: 5px;
-    color: #505050;
+li {
+  list-style: none;
+  display: inline-block;
+  color: #505050;
+  padding: 5px;
 }
 
+.google-image {
+  padding-top: 10%;
+  padding-left: 40%;
+}
+
+.search {
+  padding-top: 25px;
+  padding-left: 30%;
+  height: 100px;
+}
 
 textarea {
-    width: 45%;
-    height: 40px;
-    resize: none;
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+  width: 65%;
+  height: 40px;
+  resize: none;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+  border: 5px;
+  border-radius: 3%;
+}
+
+.random-buttons div {
+  display: inline-block;
+  margin: 15px;
+  padding: 10px 25px 10px 25px;
+  background-color: #F0EAEA;
+  font-weight: bold;
+  color: #787272;
+  border-radius: 3px;
+}
+
+.location {
+  height: 30px;
+  width: 100%;
+  margin-top: 75px;
+  padding: 8px 80% 5px 18px;
+  position: absolute;
+  left: 0px;
+  color: #787272;
+  background-color: #F0EAEA;
+  border-top: 0.3px solid #898888;
+  border-bottom: 0.3px solid #898888;
+}
+
+.extras, .others{
+  margin-top: 0px;
 }

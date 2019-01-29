@@ -18,7 +18,7 @@
   border-radius: 3px;
 }
 
-li {
+.list li {
   list-style: none;
   display: inline-block;
   color: #505050;
@@ -47,7 +47,10 @@ textarea {
 
 .random-buttons div {
   display: inline-block;
-  margin: 15px;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 80px;
   padding: 10px 25px 10px 25px;
   background-color: #F0EAEA;
   font-weight: bold;
@@ -58,16 +61,37 @@ textarea {
 .location {
   height: 30px;
   width: 100%;
-  margin-top: 75px;
   padding: 8px 80% 5px 18px;
   position: absolute;
   left: 0px;
   color: #787272;
   background-color: #F0EAEA;
-  border-top: 0.3px solid #898888;
-  border-bottom: 0.3px solid #898888;
+  border-top: 0.3px solid #f2d2d2;
+  border-bottom: 0.3px solid #f2d2d2;
 }
 
-.extras, .others{
-  margin-top: 0px;
+footer{
+  margin: 45px;
+}
+
+.extras, .others, .extras p, .others p {
+  display: inline;
+}
+
+.extras {
+  background-color: #F0EAEA;
+  position: absolute;
+  left: 0px;
+  padding: 8px 30% 25px 18px;
+  border-bottom: 0.3px solid #f2d2d2;
+  color: #787272;
+}
+
+.others {
+  background-color: #F0EAEA;
+  position: absolute;
+  right: 0px;
+  padding: 8px 18px 25px 30%;
+  border-bottom: 0.3px solid #f2d2d2;
+  color: #787272;
 }

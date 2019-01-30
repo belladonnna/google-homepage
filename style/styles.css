@@ -86,7 +86,7 @@ footer{
   background-color: #F0EAEA;
   position: absolute;
   left: 0px;
-  padding: 8px 30% 25px 18px;
+  padding: 8px 45% 25px 18px;
   border-bottom: 0.3px solid #f2d2d2;
   color: #787272;
 }
@@ -95,7 +95,7 @@ footer{
   background-color: #F0EAEA;
   position: absolute;
   right: 0px;
-  padding: 8px 18px 25px 30%;
+  padding: 8px 18px 25px 45%;
   border-bottom: 0.3px solid #f2d2d2;
   color: #787272;
 }

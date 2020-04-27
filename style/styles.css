@@ -1,5 +1,11 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
 .headers {
   padding-left: 70%;
+  display: flex;
 }
 
 .google-squares {
@@ -26,13 +32,17 @@
 }
 
 .google-image {
-  padding-top: 10%;
-  padding-left: 40%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
 }
 
 .search {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   padding-top: 25px;
-  padding-left: 30%;
   height: 100px;
 }
 
@@ -47,27 +57,29 @@ textarea {
   padding: 5px;
 }
 
+.random-buttons {
+  display: flex;
+  align-items: center;
+  margin: 2%;
+}
+
 .random-buttons div {
-  display: inline-block;
-  margin-top: 15px;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin-bottom: 80px;
-  padding: 10px 25px 10px 25px;
+  padding: 5%;
   background-color: #F0EAEA;
   font-weight: bold;
   color: #787272;
+  width: auto;
+  height: auto;
+  margin: 2%;
   border-radius: 3px;
   border: 1px solid #FFFFFF;
 }
 
 .location {
-  height: 30px;
-  width: 30%;
+  height: auto;
+  width: 100%;
   display: block;
-  padding: 8px 80% 5px 18px;
-  position: absolute;
-  left: 0px;
+  padding: 20px;
   color: #787272;
   background-color: #F0EAEA;
   border-top: 0.3px solid #f2d2d2;
@@ -75,7 +87,6 @@ textarea {
 }
 
 footer{
-  margin: 45px;
   width: 30%;
 }
 
@@ -84,12 +95,12 @@ footer{
 }
 
 .extras {
-  background-color: #F0EAEA;
   position: absolute;
   left: 0px;
-  padding: 8px 45% 25px 18px;
+  background-color: #F0EAEA;
   border-bottom: 0.3px solid #f2d2d2;
   color: #787272;
+  padding: 8px 45% 25px 18px;
 }
 
 .others {
